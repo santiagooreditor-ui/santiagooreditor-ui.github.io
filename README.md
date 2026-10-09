@@ -14,4 +14,6 @@ Put the files in the same folder as `index.html`:
 | Hero background (optional) | `showreel.mp4` |
 | About portrait | `foto.jpg` |
 
+Each video has two files: the full one (`reel-01.mp4`, opened in the player with sound) and a light silent preview (`reel-01-preview.mp4`, the first 8 seconds, played in the tiles). If a preview is missing, the tile plays the full file.
+
 GitHub limits: each file under 100 MB, whole site under 1 GB. Keep clips short (5 to 15 s, 720p, H.264, `-movflags +faststart`) and use YouTube (`yt:'VIDEO_ID'` in the `WORK` block of `index.html`) for full-length videos.

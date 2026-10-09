@@ -7,3 +7,5 @@ desktop.ini
 *.mov
 *.mkv
 *.avi
+# old naming from the previous portfolio, not used by index.html
+port-*.mp4
